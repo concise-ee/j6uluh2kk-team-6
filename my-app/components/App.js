@@ -7,7 +7,9 @@ import {getChristmas} from '../services/ChristmasService'
 class App extends Component {
 
   state = {
-    christmas: {}
+    christmas: {
+      isItChristmasYet: true
+    }
   }
 
   async componentDidMount() {
@@ -20,8 +22,7 @@ class App extends Component {
 
     return (
       <div className="App">
-        <Header></Header>
-        <div className="row mrgnbtm">
+        <div>
           <Christmas christmas={this.state.christmas}></Christmas>
         </div>
       </div>

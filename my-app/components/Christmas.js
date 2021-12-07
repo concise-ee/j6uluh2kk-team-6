@@ -3,7 +3,7 @@ import React from 'react'
 export const Christmas = ({christmas}) => {
     return(
         <div className="container">
-            <h2>Is it christmas yet? {christmas.isItChristmasYet ? 'Yep' : 'Nope'}</h2>
+            <img src="baby-yoda.jpg" width="100%"/>
         </div>
     )
 }
