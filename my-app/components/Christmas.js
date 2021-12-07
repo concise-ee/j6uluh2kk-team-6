@@ -13,7 +13,26 @@ export const Christmas = () => {
                 <img src="baby-yoda.jpg" width="100%" />
                 <Button variant="contained" color="error" onClick={() => setPressed(true)}>Claim your present here</Button>
             </>}
-            <div className={'row'} width={'100%'} hidden={true}>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <div className={'row'} width={'100%'}>
                 <YoutubeEmbed autoplay={pressed ? 1 : 0} />
             </div>
         </div>
