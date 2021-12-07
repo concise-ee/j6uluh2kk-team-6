@@ -19,3 +19,11 @@ export const Christmas = () => {
         </div>
     )
 }
+// Refresh page not needed
+//     useEffect(() => {
+//         const interval = setInterval(() => {
+//           console.log('This will run every second!');
+//           location.reload();
+//         }, 1000);
+//         return () => clearInterval(interval);
+//       }, []);
