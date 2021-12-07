@@ -14,7 +14,7 @@ export const Christmas = () => {
                 <Button variant="contained" color="error" onClick={() => setPressed(true)}>Claim your present here</Button>
             </>}
             <div className={'row'} width={'100%'} hidden={true}>
-                <YoutubeEmbed embedId={'E8gmARGvPlI'} autoplay={pressed ? 1 : 0} />
+                <YoutubeEmbed autoplay={pressed ? 1 : 0} />
             </div>
         </div>
     )

@@ -1,16 +1,16 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-const YoutubeEmbed = ({ embedId, autoplay }) => (
+const YoutubeEmbed = ({ autoplay }) => (
     <div className="video-responsive">
         <iframe
-            width="853"
-            height="480"
-            src={`https://www.youtube.com/embed/${embedId}?autoplay=${autoplay}&loop=1`}
+            width="560"
+            height="315"
+            src={`https://www.youtube.com/embed/E8gmARGvPlI?controls=0&autoplay=${autoplay}&loop=1`}
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
-            title="Embedded youtube"
+            title="YouTube video player"
         />
     </div>
 );
